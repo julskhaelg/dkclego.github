@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("images/legos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: #333;
+    padding: 40px 0;
+    color: white;
+    font-size: 24px;
+}
+
+
+.container {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.container > form, 
+.container > div {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    padding: 40px 0;
+    width: 100%;
+}
+
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+
+button:hover {
+    background-color: green;
+}
+
